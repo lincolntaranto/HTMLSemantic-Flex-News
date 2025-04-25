@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Newsreader", serif;
+}
+
+header > h1{
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+}
+
+nav{
+    display: flex;
+    background-color: gray;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.400);
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+nav > a:hover{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section{
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+    box-shadow: 1px 1px 5px;
+}
+
+aside{
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    background-color: gray;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p{
+    font-weight: bold;
+}
+
+
